@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Installer>
     <Name>SnowHaze VPN</Name>
-    <Version>1.0.0</Version>
+    <Version>1.1.0</Version>
     <Title>SnowHaze VPN Installer</Title>
     <Publisher>Illotros GmbH</Publisher>
 	<ProductUrl>https://snowhaze.com</ProductUrl>
     <!-- Directory name is used in component.xml -->
     <StartMenuDir>SnowHaze VPN</StartMenuDir>
     <TargetDir>@ApplicationsDir@/SnowHazeVPN</TargetDir>
+	<RunProgram>@TargetDir@/SnowHaze VPN</RunProgram>
 	<CreateLocalRepository>true</CreateLocalRepository>
     <RemoteRepositories>
         <Repository>
